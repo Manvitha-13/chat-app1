@@ -1,0 +1,54 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 5px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 4px;
+}
+
+/* Additional styles for Chat component */
+.chat-window {
+  max-height: 400px; /* Set max height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin-bottom: 1rem; /* Space below chat window */
+}
+
+.timestamp {
+  font-size: 0.8rem; /* Smaller font size for timestamps */
+  color: gray; /* Optional: change the color to differentiate */
+}
+.google-login-btn {
+  background-color: #4285F4; /* Google Blue */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.google-login-btn:hover {
+  background-color: #357AE8; /* Darker shade on hover */
+}
